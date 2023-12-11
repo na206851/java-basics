@@ -22,7 +22,7 @@ public class Ch1N10_54 {
             return list10to2;
         } else {
             list10to2.add(n % 2);
-            return (translation10to2(n / 2, list10to2));
+            return translation10to2(n / 2, list10to2);
         }
     }
 }

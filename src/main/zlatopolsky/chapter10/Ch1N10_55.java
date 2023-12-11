@@ -12,7 +12,7 @@ public class Ch1N10_55 {
 
         switch (whereToConvert) {
             case 2:
-                System.out.println((tenToTwo(whatToConvert, list10to2)));
+                System.out.println(tenToTwo(whatToConvert, list10to2));
                 break;
             case 3:
                 System.out.println(reverse(tenToThree(whatToConvert, list10to3)));
@@ -44,7 +44,7 @@ public class Ch1N10_55 {
             return list10to2;
         } else {
             list10to2.add(number % 2);
-            return (tenToTwo(number / 2, list10to2));
+            return tenToTwo(number / 2, list10to2);
         }
     }
 

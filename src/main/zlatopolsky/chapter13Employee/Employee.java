@@ -3,11 +3,11 @@ package zlatopolsky.chapter13Employee;
 import java.time.LocalDate;
 
 public class Employee {
-    private String name;       //имя
-    private String surname;        //фамилия
-    private String patronymic;         //отчество
-    private int startJobYear;       //год начала работы
-    private int startJobMonth;      //месяц начала работы
+    private String name;
+    private String surname;
+    private String patronymic;
+    private int startJobYear;
+    private int startJobMonth;
 
     public String getName() {
         return name;

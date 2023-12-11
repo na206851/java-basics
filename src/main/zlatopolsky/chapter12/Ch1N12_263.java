@@ -33,7 +33,7 @@ public class Ch1N12_263 {
                 for (int j = k; j < matrix[i].length - 1; j++) {
                     matrix[i][j] = matrix[i][j + 1];
                 }
-                matrix[i] = Arrays.copyOf(matrix[i], matrix[i].length - 1); // Укорачиваем массив
+                matrix[i] = Arrays.copyOf(matrix[i], matrix[i].length - 1);
             }
         }
         return matrix;

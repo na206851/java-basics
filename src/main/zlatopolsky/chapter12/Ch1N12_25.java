@@ -1,7 +1,5 @@
 package zlatopolsky.chapter12;
 
-import java.util.Arrays;
-
 public class Ch1N12_25 {
 
     public int[][] expressionA(int n, int m) {
