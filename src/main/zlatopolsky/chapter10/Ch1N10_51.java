@@ -2,26 +2,25 @@ package zlatopolsky.chapter10;
 
 public class Ch1N10_51 {
 
-    public int recursionExpressionA(int n) {
+    public void recursionExpressionA(int n) {
         if (n > 0) {
-            return n;
+            System.out.println(n);
+            recursionExpressionA(n - 1);
         }
-        return recursionExpressionA(n - 1);
     }
 
-    public int recursionExpressionB(int n) {
+    public void recursionExpressionB(int n) {
         if (n > 0) {
+            System.out.println(n);
             recursionExpressionB(n - 2);
-            return n;
         }
-        return n;
     }
 
-    public int recursionExpressionC(int n) {
+    public void recursionExpressionC(int n) {
         if (n > 0) {
-            return n;
+            System.out.println(n);
+            recursionExpressionC(n - 1);
         }
-        return recursionExpressionC(n - 1);
-
+        System.out.println(n);
     }
 }
