@@ -1,8 +1,6 @@
-package zlatopolsky.chapter12;
+package java.zlatopolsky.chapter12;
 
 import java.util.Arrays;
-
-import static zlatopolsky.chapter12.Ch1N12_25.*;
 
 class Ch1N12_25Test {
     public static void main(String[] args) {

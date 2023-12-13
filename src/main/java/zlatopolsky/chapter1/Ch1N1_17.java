@@ -1,4 +1,4 @@
-package zlatopolsky.chapter1;
+package java.zlatopolsky.chapter1;
 
 public class Ch1N1_17 {
 

@@ -1,4 +1,4 @@
-package zlatopolsky.chapter10;
+package java.zlatopolsky.chapter10;
 
 import java.util.Scanner;
 

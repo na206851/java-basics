@@ -1,4 +1,4 @@
-package zlatopolsky.chapter3;
+package java.zlatopolsky.chapter3;
 
 class Ch1N3_29Test {
     public static void main(String[] args) {

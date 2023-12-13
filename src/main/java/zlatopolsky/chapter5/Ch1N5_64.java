@@ -1,4 +1,4 @@
-package zlatopolsky.chapter5;
+package java.zlatopolsky.chapter5;
 
 import java.util.Random;
 

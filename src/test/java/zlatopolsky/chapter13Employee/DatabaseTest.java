@@ -1,4 +1,4 @@
-package zlatopolsky.chapter13Employee;
+package java.zlatopolsky.chapter13Employee;
 
 class DatabaseTest {
     public static void main(String[] args) {

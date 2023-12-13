@@ -1,4 +1,4 @@
-package zlatopolsky.chapter11;
+package java.zlatopolsky.chapter11;
 
 import java.util.Arrays;
 
