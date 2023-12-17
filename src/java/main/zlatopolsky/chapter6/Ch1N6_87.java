@@ -1,6 +1,7 @@
 package zlatopolsky.chapter6;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Ch1N6_87 {
@@ -11,8 +12,8 @@ public class Ch1N6_87 {
         String result = "";
         int a = 0;
         int b = 0;
-        ArrayList<Integer> checkTeam1 = new ArrayList<>();
-        ArrayList<Integer> checkTeam2 = new ArrayList<>();
+        List<Integer> checkTeam1 = new ArrayList<>();
+        List<Integer> checkTeam2 = new ArrayList<>();
         while (x > 0) {
             a += team1.nextInt(3 - 1) + 1;
             b += team2.nextInt((3 - 1) + 1);
