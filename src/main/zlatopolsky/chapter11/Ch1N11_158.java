@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class Ch1N11_158 {
 
     public int[] removeDuplicate(int[] nums) {
-        nums = Arrays.stream(nums).distinct().toArray();
-        return nums;
+        int[] result = new int[nums.length];
+        return Arrays.stream(result).distinct().toArray();
     }
 
     public ArrayList<Integer> removeDuplicate2(int[] nums) {
