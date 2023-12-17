@@ -2,6 +2,7 @@ package zlatopolsky.chapter11;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Ch1N11_158 {
 
@@ -10,8 +11,8 @@ public class Ch1N11_158 {
         return Arrays.stream(result).distinct().toArray();
     }
 
-    public ArrayList<Integer> removeDuplicate2(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
+    public List<Integer> removeDuplicate2(int[] nums) {
+        List<Integer> list = new ArrayList<>();
         int index = 0;
         int count = 0;
         int a = 0;

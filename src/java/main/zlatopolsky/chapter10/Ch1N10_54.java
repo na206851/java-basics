@@ -1,10 +1,10 @@
 package zlatopolsky.chapter10;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Ch1N10_54 {
 
-    public int reverseArrayList(ArrayList list10to2) {
+    public int reverseArrayList(List<Integer> list10to2) {
         int i = list10to2.size();
         StringBuilder number = new StringBuilder();
         while (i > 0) {
@@ -13,7 +13,8 @@ public class Ch1N10_54 {
         }
         return Integer.parseInt(number.toString());
     }
-    public ArrayList translation10to2(int n, ArrayList list10to2) {
+
+    public List<Integer> translation10to2(int n, List<Integer> list10to2) {
         if (n == 0) {
             list10to2.add(0);
             return list10to2;
