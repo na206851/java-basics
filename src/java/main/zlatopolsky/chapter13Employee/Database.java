@@ -1,12 +1,13 @@
 package zlatopolsky.chapter13Employee;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Database {
-    ArrayList<Employee> employees = new ArrayList<>();
+    List<Employee> employees = new ArrayList<>();
 
-    public ArrayList<Employee> getEmployeesByYearsInCompany(int yearInCompany) {
-        ArrayList<Employee> result = new ArrayList<>();
+    public List<Employee> getEmployeesByYearsInCompany(int yearInCompany) {
+        List<Employee> result = new ArrayList<>();
         for (Employee employee : employees) {
             if (yearInCompany == employee.getYearInCompany()) {
                 result.add(employee);
@@ -15,9 +16,8 @@ public class Database {
         return result;
     }
 
-    public ArrayList<Employee> searchEmployee(String substring) {
-        substring.toLowerCase();
-        ArrayList<Employee> resultSearch = new ArrayList<>();
+    public List<Employee> searchEmployee(String substring) {
+        List<Employee> resultSearch = new ArrayList<>();
         for (Employee employee : employees) {
             if (employee.getPatronymic() != null) {
                 if (employee.getName().toLowerCase().contains(substring)

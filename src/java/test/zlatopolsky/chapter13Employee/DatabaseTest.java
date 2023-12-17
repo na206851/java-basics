@@ -6,9 +6,11 @@ class DatabaseTest {
         database.addEmployee(new Employee("bob", "lastName", "surname", 2020, 4));
         database.addEmployee(new Employee("nikita", "secondLasbotName", "seson", 2014, 9));
         database.addEmployee(new Employee("nikita", "bobob", 2021, 9));
-        // System.out.println(database.getEmployeesByYearsInCompany(2));
 
         System.out.println(database.searchEmployee("ni"));
-    }
+        System.out.println(database.searchEmployee("kak"));
 
+        System.out.println(database.getEmployeesByYearsInCompany(3));
+        System.out.println(database.getEmployeesByYearsInCompany(12));
+    }
 }
