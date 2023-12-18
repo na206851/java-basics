@@ -13,6 +13,7 @@ public class Ch1N12_63 {
         }
         return arr;
     }
+
     public int[] columnAverage(int[][] arr) {
         int[] result = new int[arr.length];
         int tmp = 0;
