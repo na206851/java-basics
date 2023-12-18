@@ -7,19 +7,12 @@ public class Ch1N4_106 {
         if (month > 12) {
             month %= 12;
         }
-        switch (month) {
-            case 3, 4, 5:
-                season = "spring";
-                break;
-            case 6, 7, 8:
-                season = "summer";
-                break;
-            case 9, 10, 11:
-                season = "autumn";
-                break;
-            default:
-                season = "winter";
-        }
+        season = switch (month) {
+            case 3, 4, 5 -> "spring";
+            case 6, 7, 8 -> "summer";
+            case 9, 10, 11 -> "autumn";
+            default -> "winter";
+        };
         return season;
     }
 }
