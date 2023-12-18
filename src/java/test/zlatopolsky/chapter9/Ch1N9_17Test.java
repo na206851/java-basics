@@ -6,5 +6,4 @@ class Ch1N9_17Test {
         System.out.println(test.firstAndLastLetter("lessonl"));
         System.out.println(test.firstAndLastLetter("lesson"));
     }
-
 }

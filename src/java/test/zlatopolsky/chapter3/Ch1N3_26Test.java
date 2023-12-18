@@ -11,7 +11,6 @@ class Ch1N3_26Test{
         System.out.println(test.expressionA(false, false, true));
         System.out.println(test.expressionA(false, true, false));
 
-
         System.out.println(test.expressionB(true, true, true));
         System.out.println(test.expressionB(true, true, false));
         System.out.println(test.expressionB(true, false, false));
