@@ -24,7 +24,7 @@ public class Ch1N6_87 {
 
         if (checkTeam1.get(checkTeam1.size() - 1) > checkTeam2.get(checkTeam2.size() - 1)) {
             result = "first team win";
-        } else if (checkTeam1.get(checkTeam1.size() - 1) == checkTeam2.get(checkTeam2.size() - 1)) {
+        } else if (checkTeam1.get(checkTeam1.size() - 1).equals(checkTeam2.get(checkTeam2.size() - 1))) {
             result = "ничья";
         } else {
             result = "second team win";
