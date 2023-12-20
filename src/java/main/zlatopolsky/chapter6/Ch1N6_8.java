@@ -1,7 +1,5 @@
 package zlatopolsky.chapter6;
 
-import java.util.Arrays;
-
 public class Ch1N6_8 {
 
     public int[] arrayDigits(int n) {
@@ -9,11 +7,10 @@ public class Ch1N6_8 {
         for (int i = 0; i < n; i++) {
             array[i] = i * i;
         }
-        System.out.println(Arrays.toString(array));
         return array;
     }
 
-    public int[] digitsArrayResult(int[] array, int target) {
+    public int[] digitsLessTarget(int[] array, int target) {
         int count = 0;
         for (int j = 0; j < array.length; j++) {
             if (array[j] < target) {
