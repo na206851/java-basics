@@ -21,6 +21,7 @@ public class Ch1N11_158 {
             }
             a++;
         }
+
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] != nums[j]) {

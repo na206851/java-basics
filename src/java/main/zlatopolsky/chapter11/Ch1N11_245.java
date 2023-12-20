@@ -6,6 +6,7 @@ public class Ch1N11_245 {
         int[] result = new int[nums.length];
         int index = 0;
         int lastIndex = result.length - 1;
+
         for (int i = 0; i < result.length; i++) {
             if (nums[i] >= 0) {
                 result[lastIndex] = nums[i];
