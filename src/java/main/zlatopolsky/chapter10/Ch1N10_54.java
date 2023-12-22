@@ -1,28 +1,27 @@
 package zlatopolsky.chapter10;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Ch1N10_54 {
 
-    public int reverseList(List<Integer> list10to2) {
-        int i = list10to2.size();
-        StringBuilder number = new StringBuilder();
-        while (i > 0) {
-            number.append(list10to2.get(i - 1));
-            i--;
+    public List<Integer> translation10to2(int n) {
+        List<Integer> list10to2 = new ArrayList<>();
+        if (n == 1 || n == 0) {
+            list10to2.add(0, n);
+            return list10to2;
         }
-        return Integer.parseInt(number.toString());
+        return translation10to2(n, list10to2);
     }
 
     public List<Integer> translation10to2(int n, List<Integer> list10to2) {
         if (n == 0) {
-            list10to2.add(0);
             return list10to2;
         } else if (n == 1) {
-            list10to2.add(1);
+            list10to2.add(0, 1);
             return list10to2;
         } else {
-            list10to2.add(n % 2);
+            list10to2.add(0, n % 2);
             return translation10to2(n / 2, list10to2);
         }
     }

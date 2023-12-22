@@ -1,13 +1,14 @@
 package zlatopolsky.chapter10;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Ch1N10_54Test {
     public static void main(String[] args) {
         Ch1N10_54 test = new Ch1N10_54();
-        List<Integer> list10to2 = new ArrayList<>();
-
-        System.out.println(test.reverseList(test.translation10to2(25, list10to2)));
+        System.out.println(test.translation10to2(0));
+        System.out.println(test.translation10to2(1));
+        System.out.println(test.translation10to2(4));
+        System.out.println(test.translation10to2(25));
+        System.out.println(test.translation10to2(50));
+        System.out.println(test.translation10to2(75));
+        System.out.println(test.translation10to2(100));
     }
 }
