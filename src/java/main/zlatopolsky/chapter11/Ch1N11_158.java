@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Ch1N11_158 {
 
-    public int[] removeDuplicate(int[] nums2) {
+    public int[] removeDuplicates(int[] nums2) {
         return Arrays.stream(nums2).distinct().toArray();
     }
 
-    public List<Integer> removeDuplicate2(int[] nums) {
+    public List<Integer> removeDuplicates2(int[] nums) {
         List<Integer> list = new ArrayList<>();
         int index = 0;
         int count = 0;
@@ -41,7 +41,6 @@ public class Ch1N11_158 {
         if (count == 1) {
             list.add(0);
         }
-        System.out.println(list);
         return list;
     }
 }
