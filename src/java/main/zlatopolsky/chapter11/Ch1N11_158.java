@@ -14,12 +14,11 @@ public class Ch1N11_158 {
         List<Integer> list = new ArrayList<>();
         int index = 0;
         int count = 0;
-        int a = 0;
-        while (a < nums.length) {
-            if (nums[a] == 0) {
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
                 count++;
             }
-            a++;
         }
 
         for (int i = 0; i < nums.length; i++) {
@@ -32,13 +31,11 @@ public class Ch1N11_158 {
             }
             index++;
         }
-        index = 0;
 
-        while (index < nums.length) {
-            if (nums[index] != 0) {
-                list.add(nums[index]);
+        for (int k = 0; k < nums.length; k++) {
+            if (nums[k] != 0) {
+                list.add(nums[k]);
             }
-            index++;
         }
 
         if (count == 1) {
