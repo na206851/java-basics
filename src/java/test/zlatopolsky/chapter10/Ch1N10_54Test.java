@@ -8,6 +8,6 @@ class Ch1N10_54Test {
         Ch1N10_54 test = new Ch1N10_54();
         List<Integer> list10to2 = new ArrayList<>();
 
-        System.out.println(test.reverseArrayList(test.translation10to2(25, list10to2)));
+        System.out.println(test.reverseList(test.translation10to2(25, list10to2)));
     }
 }

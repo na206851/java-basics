@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Ch1N10_54 {
 
-    public int reverseArrayList(List<Integer> list10to2) {
+    public int reverseList(List<Integer> list10to2) {
         int i = list10to2.size();
         StringBuilder number = new StringBuilder();
         while (i > 0) {
