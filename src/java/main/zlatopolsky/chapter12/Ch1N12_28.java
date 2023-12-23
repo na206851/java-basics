@@ -1,10 +1,7 @@
 package zlatopolsky.chapter12;
 
 public class Ch1N12_28 {
-    /**
-     * матрица заполняется по границам (строки, столбцы) после того как строка или столбец заполнен он обрезается
-     * нужно подумать как можно написать через рекурсию
-     */
+
     public int[][] spiralMatrix(int n, int m) {
         int[][] matrix = new int[n][m];
         int count = 1;
