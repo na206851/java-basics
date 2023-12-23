@@ -2,18 +2,23 @@ package zlatopolsky.chapter9;
 
 public class Ch1N9_185 {
 
-    public int validPairs(String str) {
+    public boolean validPairs(String str) {
         char[] arr = str.toCharArray();
-        int count = 0;
-        char prev = ' ';
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == '(') {
-                count++;
-            } else {
-                count--;
-            }
-            prev = arr[i];
+        int openBraces = 0;
+        int closeBraces = 0;
+        if (arr.length == 1 || arr[0] == ')') {
+            return false;
         }
-        return count;
+        for (int k = 0; k < arr.length; k++) {
+            if (arr[k] == '(') {
+                openBraces++;
+            } else {
+                closeBraces++;
+            }
+            if (closeBraces > openBraces) {
+                return false;
+            }
+        }
+        return openBraces - closeBraces == 0;
     }
 }
