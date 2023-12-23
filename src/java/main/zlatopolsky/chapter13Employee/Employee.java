@@ -29,15 +29,14 @@ public class Employee {
         return startJobMonth;
     }
 
-    Employee(String firstName, String lastName, int startJobYear, int startJobMonth) {
+    public Employee(String firstName, String lastName, int startJobYear, int startJobMonth) {
         this.name = firstName;
         this.surname = lastName;
         this.startJobYear = startJobYear;
         this.startJobMonth = startJobMonth;
-
     }
 
-    Employee(String firstName, String lastName, String surname, int startJobYear, int startJobMonth) {
+    public Employee(String firstName, String lastName, String surname, int startJobYear, int startJobMonth) {
         this(firstName, lastName, startJobYear, startJobMonth);
         this.patronymic = surname;
     }
