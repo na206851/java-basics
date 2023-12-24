@@ -8,7 +8,6 @@ class Ch1N9_185Test {
         System.out.println(test.validPairs("()"));
         System.out.println(test.validPairs("()(())"));
         System.out.println(test.validPairs("()(())()"));
-        System.out.println("negative");
         System.out.println(test.validPairs(")("));
         System.out.println(test.validPairs(")()"));
         System.out.println(test.validPairs("())(()"));
