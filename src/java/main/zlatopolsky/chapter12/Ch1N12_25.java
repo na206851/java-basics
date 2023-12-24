@@ -14,9 +14,6 @@ public class Ch1N12_25 {
         return matrix;
     }
 
-    /**
-     * в примере мы поменяли местами строки и столбцы, итеррируемся по столбцам
-     */
     public int[][] expressionB(int n, int m) {
         int[][] matrix = new int[n][m];
         int count = 1;
