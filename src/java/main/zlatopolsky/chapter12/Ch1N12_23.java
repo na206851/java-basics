@@ -1,5 +1,7 @@
 package zlatopolsky.chapter12;
 
+import static zlatopolsky.chapter12.Ch1N12_263.printMatrix;
+
 public class Ch1N12_23 {
 
     public int[][] expressionA(int n, int m) {
@@ -11,6 +13,7 @@ public class Ch1N12_23 {
                 }
             }
         }
+        printMatrix(matrix);
         return matrix;
     }
 
@@ -23,6 +26,7 @@ public class Ch1N12_23 {
                 }
             }
         }
+        printMatrix(matrix);
         return matrix;
     }
 
@@ -37,6 +41,7 @@ public class Ch1N12_23 {
                 }
             }
         }
+        printMatrix(matrix);
         return matrix;
     }
 }
